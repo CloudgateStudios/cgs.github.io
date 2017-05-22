@@ -1,13 +1,10 @@
 # Site settings
-title: Dollars & Sense of Westworld
-description: "We try to figure out if it would be possible to run Westworld as an actual business."
-url: "http://www.dollarsandsenseofwestworld.com"
-author:
-- name: "Dollars and Sense of Westworld"
-  url: "https://twitter.com/_dasow"
+title: Cloudgate Studios
+description: "Simple app development in the Chicago suburbs"
+url: "http://www.cloudgatestudios.com"
 
 # Build settings
-baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
+baseurl: 
 markdown: kramdown
 source: .
 destination: ./_site
@@ -26,13 +23,6 @@ defaults:
 
 # Plugins
 gems:
-  - jekyll-paginate
-  - jekyll-sitemap
 
 # Custom variables
 version: "1.0.0"
-
-# Options
-custom_header: false
-custom_nav_footer: false
-reverse: false
